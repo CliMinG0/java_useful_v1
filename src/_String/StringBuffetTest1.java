@@ -18,5 +18,12 @@ public class StringBuffetTest1 {
 
         System.out.println("수정 후 : " + System.identityHashCode(buffer1));
 
+        //이전 버전에서는 hashcode(); 해당객체의 유일성을 보장하는 점수 값
+        //API 8버전에서는 buffer1.toString() 해야 값을 확인할수 있다
+        System.out.println(buffer1);
+
+        //StringBuffer 데이터타입을 String 으로 형변환하려면 .toString으로 형변환하면 된다.
+        String result = buffer1.toString();
+
     }//end of main
 }//end of public class

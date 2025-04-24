@@ -29,5 +29,4 @@ public class StringTest1 {
 
 
     }//end of main
-
 }//end of public class
