@@ -36,5 +36,4 @@ public class SpaceShip {
         }
 
     }// end of inner Engine
-
 }

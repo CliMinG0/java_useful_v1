@@ -24,11 +24,7 @@ public class Worker extends Thread {
             }catch (InterruptedException e1){
                 System.out.println("외부에서 신호를 받아서 예외가 발생됐어");
                 e1.printStackTrace(); //예외가 발생한 부분들 좀더 상세히 출력
-            }catch (Exception e2){
-
             }
-
-
         }
     }
 }

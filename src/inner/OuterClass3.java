@@ -7,8 +7,6 @@ public class OuterClass3 {
     //인터페이스는 기본적으로 인스턴스화 할수 없다
     //단 익명 내부클래스로 구현할수 있다
 
-
-
     public static void main(String[] args) {
 
         //구현부를 만들어준다

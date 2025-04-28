@@ -19,7 +19,6 @@ public class OuterClass {
         OuterClass.InnerClass innerClass = outerClass.new InnerClass();
         innerClass.display();
 
-
     }
 
 }//outer class end
